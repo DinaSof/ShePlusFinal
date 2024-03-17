@@ -1,10 +1,14 @@
 body {
-  background: #8fbaf3;
+  background: #e3f6f5;
   font-family: "Laila", serif;
 }
 
+a {
+  color: #48a4a0;
+}
+
 .weather-app {
-  background: #e7eaf6;
+  background: white;
   max-width: 600px;
   margin: 60px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -13,12 +17,12 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #808ec8;
+  border-bottom: 1px solid #e3f6f5;
   padding: 0 0 30px;
 }
 
 .search-form-input {
-  background-color: #8fbaf3;
+  background-color: #e3f6f5;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -27,13 +31,13 @@ header {
 }
 
 .search-form-button {
-  background: hsl(214, 83%, 59%);
+  background: #48a4a0;
   padding: 15px 20px;
   border: none;
   font-size: 16px;
   margin-left: 5px;
   border-radius: 6px;
-  color: #e7eaf6;
+  color: white;
 }
 
 main {
@@ -47,6 +51,78 @@ main {
 
 .weather-app-city {
   margin: 0 auto;
-  font-size: 26px;
+  font-size: 36px;
   line-height: 48px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.weather-app-details strong {
+  color: #8242a0;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.weather-app-unit {
+  margin-top: 6px;
+  font-size: 28px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.weather-forcast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #8242a0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
+footer {
+  border-top: 1px solid #e3f6f5;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
 }
