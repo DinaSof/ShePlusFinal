@@ -24,7 +24,7 @@ header {
 }
 
 .search-form-input {
-  background-color: #e3f6f5;
+  background-color: #c6e6f6;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -53,7 +53,7 @@ main {
 
 .weather-app-city {
   margin: 0 auto;
-  font-size: 36px;
+  font-size: 38px;
   line-height: 48px;
 }
 
@@ -61,7 +61,7 @@ main {
   font-size: 16px;
   color: rgba(18, 16, 31, 0.4);
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .weather-app-details strong {
@@ -96,7 +96,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(18, 16, 31, 0.4);
+  color: rgba(18, 16, 31, 0.5);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
